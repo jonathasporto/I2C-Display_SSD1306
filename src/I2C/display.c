@@ -35,9 +35,9 @@ void display_init()
   ssd1306_fill(&ssd, false);                      // Limpa o display
   ssd1306_rect(&ssd, 3, 3, 122, 58, true, false); // Desenha um retângulo
 
-  ssd1306_draw_string(&ssd, "EMBTEC U4D03", 8, 10); // Desenha uma string
-  ssd1306_draw_string(&ssd, "TYPED CHAR ", 8, 30);  // Desenha uma string
-  ssd1306_draw_string(&ssd, "LEDS ", 8, 48);        // Desenha uma string
+  ssd1306_draw_string(&ssd, "TAREFA 06U4", 8, 10); // Desenha uma string
+  ssd1306_draw_string(&ssd, "CARACTER  ", 8, 30);  // Desenha uma string
+  ssd1306_draw_string(&ssd, "LEDS  ", 8, 48);        // Desenha uma string
 
   ssd1306_send_data(&ssd); // Atualiza o display
 }
@@ -46,7 +46,7 @@ void setDisplay_Char(char str)
 {
   ssd1306_draw_string(&ssd, "            ", 8, 30); // Limpa conteudo do display
 
-  char message[15] = "TYPED CHAR "; // Inicializa a string com "TYPED CHAR"
+  char message[15] = "CARACTER  "; // Inicializa a string com "TYPED CHAR"
 
   // Calcula o comprimento da string "TYPED CHAR"
   int len = strlen(message);

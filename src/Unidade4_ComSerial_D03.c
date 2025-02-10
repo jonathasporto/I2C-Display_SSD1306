@@ -40,9 +40,6 @@ void dobuttonA()
 
   // Descritivo print na interface Serial
   char *estado_str = estado_led ? "false" : "true";
-  // uart_puts(UART_ID, "LED VERDE ALTERADO: "); // Envia uma mensagem adicional para cada caractere recebido
-  // uart_puts(UART_ID, estado_str);             // Envia de volta o caractere lido (eco)
-  // uart_puts(UART_ID, "\n\r");                 // Pula para inicio da proxima linha
   printf("LED VERDE ALTERADO: %s\n", estado_str);
 
   // Mensagem no display SSD1306
