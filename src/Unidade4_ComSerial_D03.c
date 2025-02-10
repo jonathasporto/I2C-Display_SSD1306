@@ -20,7 +20,7 @@
 #define BUTTON_A 5
 #define BUTTON_B 6
 
-#define DEBOUNCE_DELAY 200 // Atraso de 500ms para debouncing
+#define DEBOUNCE_DELAY 200 // Atraso de 200ms para debouncing
 
 static volatile uint32_t last_interrupt_time = 0; // Variavel que salva ultima interrupção
 uint8_t numberLED;                                // Variavel de estado do número
