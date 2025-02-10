@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/Unidade4_ComSerial_D03.uf2'
+elf = 'build/Unidade4_ComSerial_D03.elf'
