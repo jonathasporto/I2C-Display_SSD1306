@@ -5,7 +5,7 @@ Trabalho do dia 03/02/2025 do projeto EmbarcaTech
 
 # Video de Funcionamento
 
-[![video](https://youtu.be/wtUNetC_KRQ)](https://youtu.be/wtUNetC_KRQ)
+[AQUI!](https://youtu.be/wtUNetC_KRQ)
 
 # Componentes BigDogLab
 
