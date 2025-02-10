@@ -3,6 +3,10 @@
 Trabalho do dia 03/02/2025 do projeto EmbarcaTech
 
 
+# Video de Funcionamento
+
+[![video](https://youtu.be/wtUNetC_KRQ)](https://youtu.be/wtUNetC_KRQ)
+
 # Componentes BigDogLab
 
 • Matriz 5x5 de LEDs (endereçáveis) WS2812, conectada à GPIO 7.
@@ -60,6 +64,3 @@ O módelo wokwi funciona melhor ativando o process_UART() em vez do process_USB(
 ![Modelo](images/wokwi_model.png)
 
 
-# Video de Funcionamento
-
-[![video](
